@@ -9,6 +9,8 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
      "sonar": "node sonar-project.js"
+    "publishConfig": {
+    "registry": "http://44.204.41.140:8081/repository/nodejs/"
   },
   "dependencies": {
     "cfenv": "^1.1.0",
